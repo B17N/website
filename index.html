@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueStone</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+			background-image: url('hero3.png');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            background-size: 120% auto;
+            background-position-x: 10%;
+        }
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            border-radius: 10px;
+            transform: translateX(-10px);
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .btn-learn-more {
+            background-color: #ff6b6b;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1.1rem;
+        }
+        .logo {
+            max-height: 80px;
+        }
+        
+       .navbar-nav {
+            font-size: 18px; /* Increase the font size as needed */
+           
+        }
+        .nav-item {
+        margin-right: 25px;
+        padding-top: 10px; /* 增加上边距 */
+        padding-bottom: 10px; /* 增加下边距 */
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Logo.jpg" alt="BlueStone Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="display: none;" class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="mission.html">Mission</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero-content text-white">
+                        <h1 class="hero-title">Welcome to BlueStone</h1>
+                        <p class="hero-subtitle">Empowering decentralized communities with true ownership of digital assets</p>
+                        <a href="#" class="btn btn-learn-more btn-lg text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-area py-5">
+        <div class="container">
+          
+            <!-- Our Vision Section -->
+            
+            <div class="row mb-5 mt-4" >
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="fas fa-globe fa-3x mb-3 text-primary"></i>
+                        <h3>Global Community</h3>
+                        <p>Building a world where borders are no longer barriers, fostering true global citizenship.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="fas fa-link fa-3x mb-3 text-primary"></i>
+                        <h3>Decentralized Trust</h3>
+                        <p>Creating a foundation for human cooperation that transcends traditional power structures.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                        <h3>Inclusive Decision-Making</h3>
+                        <p>Enabling every voice to contribute to global decision-making through blockchain technology.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Our Team Section -->
+            <h2 class="text-center mb-5">Our Team</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <img src="avatar1.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Yiran Tao" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h3 class="card-title">Yiran Tao</h3>
+                            <p class="card-text">Co-founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <img src="avatar3.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Zhongtao Wang" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h3 class="card-title">Zhongtao Wang</h3>
+                            <p class="card-text">Co-founder & CTO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <img src="avatar2.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Yage Meng" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h3 class="card-title">Yage Meng</h3>
+                            <p class="card-text">Head of Sales and Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 BlueStone. All rights reserved. | <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
